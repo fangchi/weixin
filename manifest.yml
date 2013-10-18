@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    mem: 64M
+    url: ${name}_fangchi.${target-base}
+    framework: 
+      info: 
+        description: Node.js Application
+        mem: 64M
+        exec: 
+      name: node
+    infra: ap-aws
+    instances: 1
+    name: weixin
